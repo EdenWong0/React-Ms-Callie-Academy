@@ -1,7 +1,48 @@
-import React from 'react'
+'use clients'
+import { 
+  RiYoutubeFill, RiInstagramFill,
+  RiWechatFill,
+  RiFacebookFill,
+  RiWhatsappFill,
+} from 'react-icons/ri'
 
-const Socials = () => {
-  return <div>Socials</div>;
-}
+import Link from 'next/link';
+
+const icons = [
+  {
+    path: '/',
+    name: <RiYoutubeFill />, 
+  },
+  {
+    path: '/',
+    name: <RiInstagramFill />, 
+  },
+  {
+    path: '/',
+    name: <RiFacebookFill />, 
+  },
+  {
+    path: '/',
+    name: <RiWechatFill />, 
+  },
+  {
+    path: '/',
+    name: <RiWhatsappFill />, 
+  },
+]
+const Socials = ({ containerStyles, iconsStyles }) => {
+  return (
+    <div className={`${containerStyles}`}>
+      {icons.map((icon, index) => {
+        return (
+        <Link href={icon.path} key={index}>
+          <div className={`${iconsStyles}`}>{icon.name}</div>
+        </Link>
+        );
+      })}
+    </div>
+  );
+};
+
 
 export default Socials

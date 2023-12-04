@@ -30,6 +30,9 @@ module.exports = {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
         },
+        tertiary: {
+          DEFAULT: "hsl(var(--tertiary))",
+        },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
@@ -72,7 +75,8 @@ module.exports = {
       },
       backgroundImage: {
         hero: 'url(/hero/demo.jpg)',
-      }
+        hero_icon: 'url(/hero/calliewong.png)',
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
