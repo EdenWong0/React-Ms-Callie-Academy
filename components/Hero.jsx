@@ -43,19 +43,22 @@ const Hero = () => {
             containerStyles='absolute top-[5%] -left-[10rem] '
             icon={<RiBriefcase4Fill />} 
             endCountNum={7} 
-            badgeText='+ Years Teaching Experience'
+            endCountText='+'
+            badgeText='Years Teaching Experience'
             />
             <Badge 
             containerStyles='absolute top-[40%] -right-[5rem] '
             icon={<RiTodoFill />} 
-            endCountNum={10} 
-            badgeText='+ Awards'
+            endCountNum={10}
+            endCountText='+'
+            badgeText='Awards'
             />
             <Badge 
             containerStyles='absolute top-[80%] -left-[1rem] '
             icon={<RiTeamFill />} 
             endCountNum={100} 
-            badgeText='+ Student'
+            endCountText='+'
+            badgeText='Student'
             />
             <DevImg containerStyles='w-[350px] h-[400px] bg-no-repeat relative bg-bottom' imgSrc='/hero/calliewong.png'/>
           </div>

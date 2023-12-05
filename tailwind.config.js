@@ -6,14 +6,17 @@ module.exports = {
     './components/**/*.{js,jsx}',
     './app/**/*.{js,jsx}',
     './src/**/*.{js,jsx}',
-	],
+  ],
   theme: {
     container: {
       center: true,
       padding: "2rem",
-      screens: {
-        "2xl": "1400px",
-      },
+    },
+    screens: {
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1400px',  
     },
     extend: {
       colors: {
@@ -76,8 +79,9 @@ module.exports = {
       backgroundImage: {
         hero: 'url(/hero/demo.jpg)',
         hero_icon: 'url(/hero/calliewong.png)',
+        about_icon: 'url(/about/calliewong.png)',
       },
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};
