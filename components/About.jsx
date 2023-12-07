@@ -67,17 +67,11 @@ const About = () => {
                                         I started my piano journey at the age of 7                                    
                                     </h3>
                                     <p className='subtitle max-w-xl max-auto xl:mx-0'>
-                                    Callie is a pianist, collaborative pianist and music instructor who born in Hong Kong and moved to Toronto, Canada.
-                                    <br/>
-                                    I found a huge passion in the classical music world. The gigantic music universe doesn’t bored me and I am 100% devoted myself in seeking new knowledge in this area. I love to teach, and also learn and grow with my students. 
-                                    <br/>
-                                    I am now continuing my piano performance studies under the supervision of Italian concert pianist Prof. Niccolo Ronchi. Learning under Prof. Niccolo Ronchi, I am awared on the bond between technical reliability and musical expression. Moreover, Learning music historical background, analysing repertoire structure and appreciation of music are essential in order to strive for the best result of performance artistry.
-                                    <br/>
-                                    In my piano journey, I have obtained a grade 8 in piano from Associated Board of the Royal Schools of Music, ATCL in piano rectal (Distinction Award) and LTCL in piano recital (Equivalent to ARCT in RCM music board) in Trinity College London. In 2019, I have completed a postgraduate diploma in music pedagogy and performance presented by the Hong Kong University. I have also received a level 8 theory from the Royal Conservatory Theory Examinations (RCM). 
+                                    Callie is a pianist, collaborative pianist and music instructor who born in Hong Kong and moved to Toronto, Canada. 
                                     <br/>
                                     Throughout my career, I have performed in many piano recitals. I have joined several piano competitions and in recent, I have won the 2nd Place of Tokyo International Youth Music Competition 2020 ; the 3rd place of The 7th Macao Asia Pacific Youth Piano Competition and the 3rd place of The 9th Hong Kong International Youth Performing Arts Festival. I am also one of the finalist of The 15th Hong Kong Asia Piano Open Competition. 
                                     <br/>
-                                    I have been entitled as several “BEST TEACHER AWARD” by various music organisations. Along the music career, I have been teaching more than 60+ students and the exam passing rate of my students is 100%. Here is a teaching motto in our studio - “Learn, involve, grow”, Its not only applied to my students, but also me! I hope we learn together, involve the music journey together, and grow to be a better person. 
+                                    I have been entitled as several “BEST TEACHER AWARD” by various music organisations. Along the music career, I have been teaching more than 100+ students and the exam passing rate of my students is 100%. Here is a teaching motto in our studio - “Learn, involve, grow”, Its not only applied to my students, but also me! I hope we learn together, involve the music journey together, and grow to be a better person. 
                                     </p>
                                     <div className='grid xl:grid-cols-2 gap-4 mb-12'>
                                         {infoData.map((item, index)=> {
