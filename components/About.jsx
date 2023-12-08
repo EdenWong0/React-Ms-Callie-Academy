@@ -2,6 +2,7 @@ import DevImg from './DevImg';
 import Image from 'next/image';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { MailIcon, HomeIcon, PhoneCall, GraduationCap } from 'lucide-react';
+import { RiArrowDownSFill } from 'react-icons/ri';
 
 const infoData =[
     {
@@ -51,7 +52,7 @@ const About = () => {
             <h2 className='section-title mb-8 xl:mb-16 text-center mx-auto'>✨About Me✨</h2>
             <div className='flex flex-col xl:flex-row'>
                 <div className='hidden xl:flex flex-1 relative'>
-                    <DevImg containerStyles='w-[350px] h-[400px] bg-no-repeat relative' imgSrc='/about/calliewong.png' 
+                    <DevImg containerStyles='w-[350px] h-[500px] bg-no-repeat relative' imgSrc='/about/calliewongone.png' 
                     />
                 </div>
                 <div className='flex-1'>
@@ -120,6 +121,9 @@ const About = () => {
                     </Tabs>
                 </div>
             </div>
+        </div>
+        <div className='hidden md:flex absolute left-1/2 bottom-44 xl:bottom-12 animate-bounce'>
+          <RiArrowDownSFill className='text-xl text-primary' />
         </div>
     </section>
     );

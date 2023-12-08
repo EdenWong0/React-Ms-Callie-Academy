@@ -1,5 +1,6 @@
 "use client";
 import { useState } from 'react';
+import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -20,6 +21,7 @@ const Contact = () => {
     // Add your logic to handle form submission (e.g., send data to server, etc.)
     console.log('Form submitted:', formData);
   };
+
 
   return (
     <section className='mb-12 xl:mb-36'>

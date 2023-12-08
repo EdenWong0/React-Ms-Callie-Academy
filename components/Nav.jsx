@@ -6,6 +6,7 @@ const links =[
     {path: '/', name: 'Home'},
     {path: '/about', name: 'About me'},
     {path: '/awards', name: 'Awards'},
+    {path: '/gallery', name: 'Gallery'},
     {path: '/contact', name: 'Contact'}
 ]
 

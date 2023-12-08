@@ -2,7 +2,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Lessons from "@/components/Lessons";
 import Awards from "@/components/Awards";
-import Work from "@/components/Work";
+import Gallery from "@/components/Gallery";
 import Contact from "@/components/Contact";
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
     <About />
     <Lessons />
     <Awards />
+    <Gallery />
     <Contact />
-    <Work />
   </main>;
 }

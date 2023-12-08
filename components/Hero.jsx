@@ -40,7 +40,7 @@ const Hero = () => {
           </div>
           <div className='hidden xl:flex relative'>
             <Badge 
-            containerStyles='absolute top-[5%] -left-[10rem] '
+            containerStyles='absolute top-[0%] -left-[6rem] '
             icon={<RiBriefcase4Fill />} 
             endCountNum={7} 
             endCountText='+'
@@ -54,7 +54,7 @@ const Hero = () => {
             badgeText='Awards'
             />
             <Badge 
-            containerStyles='absolute top-[80%] -left-[1rem] '
+            containerStyles='absolute top-[75%] -left-[4rem] '
             icon={<RiTeamFill />} 
             endCountNum={100} 
             endCountText='+'

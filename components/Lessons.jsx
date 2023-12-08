@@ -34,7 +34,7 @@ const Lessons = () => {
     return (
       <section className='mb-12 xl:mb-36'>
         <div className='container mx-auto'>
-          <h2 className='section-title mb-8 xl:mb-16 text-center mx-auto h-[150px]'>✨Lessons✨</h2>
+          <h2 className='section-title mb-8 xl:mb-16 text-center mx-auto h-[130px]'>✨Lessons✨</h2>
           <div className='grid xl:grid-cols-3 justify-center gap-y-12 xl:gap-y-24'>
             {lessonsData.map((item, index) => {
               return (
