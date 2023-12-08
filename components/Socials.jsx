@@ -10,23 +10,19 @@ import Link from 'next/link';
 
 const icons = [
   {
-    path: '/',
+    path: 'https://www.youtube.com/@mscalliepianolearningacademy',
     name: <RiYoutubeFill />, 
   },
   {
-    path: '/',
+    path: 'https://www.instagram.com/calliewongmusicstudio/?igshid=NzZlODBkYWE4Ng%3D%3D',
     name: <RiInstagramFill />, 
   },
   {
-    path: '/',
+    path: 'https://www.facebook.com/calliewongmusicstudio',
     name: <RiFacebookFill />, 
   },
   {
-    path: '/',
-    name: <RiWechatFill />, 
-  },
-  {
-    path: '/',
+    path: 'https://api.whatsapp.com/send?phone=85294398108&text=Hello%20im%20interested%20in%20piano%20course!%E2%98%BA%EF%B8%8F',
     name: <RiWhatsappFill />, 
   },
 ]

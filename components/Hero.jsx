@@ -23,7 +23,8 @@ const Hero = () => {
             <div className="text-sm uppercase font-samibold mb-4 text-primary tracking-[4px]">PGDip in Music , LTCL , ATCL (Piano Performance; Trinity College, London)</div>
             <h1 className='h1 mb-4'>Callie Wong Music Studio</h1>
             <p className='subtitle max-w-[490px] mx-auto xl:mx-0'>
-                IN-HOME PIANO STUDIO LOCATED IN THE HEART OF NORTH YORK, TORONTO🇨🇦
+                IN-HOME PIANO STUDIO LOCATED IN THE HEART OF NORTH YORK, TORONTO, CANADA
+                <br />
                 🎹 TEACHING ALL AGES & LEVELS 🎹
             </p>
             <div className='flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12'>
@@ -32,9 +33,11 @@ const Hero = () => {
                         Contact Me<Send size={18}/>
                     </Button>
                 </Link>
-                <Button className='gap-x-2'>
-                    Trail Lesson enquire<Send size={18}/>
-                </Button>
+                <Link href='https://api.whatsapp.com/send?phone=85294398108&text=Hello%20im%20interested%20in%20piano%20course!%E2%98%BA%EF%B8%8F'>
+                  <Button className='gap-x-2'>
+                      Trail Lesson enquire<Send size={18}/>
+                  </Button>
+                </Link>
             </div>
             <Socials containerStyles='flex gap-x-6 mx-auto xl:mx-0' iconsStyles='text-foreground text-[22px] hover:text-primary transition-all'/>
           </div>
